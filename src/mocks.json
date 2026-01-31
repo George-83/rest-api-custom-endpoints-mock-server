@@ -29,24 +29,109 @@
     }
   },
   {
-    "id": "get-users",
+    "id": "get-gb",
     "method": "GET",
-    "path": "/users",
+    "path": "/gb",
     "response": {
       "status": 200,
-      "body": [
-        { "id": 1, "name": "Alex" },
-        { "id": 2, "name": "Maria" }
-      ]
+      "headers": {
+        "Cache-Control": "no-store"
+      },
+      "body": {
+        "name": "United Kingdom",
+        "official": "United Kingdom of Great Britain and Northern Ireland",
+        "nativeName": {
+          "eng": {
+            "official": "United Kingdom of Great Britain and Northern Ireland",
+            "common": "United Kingdom"
+          }
+        },
+        "capital": [
+          "London"
+        ],
+        "population": 69281437,
+        "maps": {
+          "googleMaps": "https://goo.gl/maps/FoDtc3UKMkFsXAjHA",
+          "openStreetMaps": "https://www.openstreetmap.org/relation/62149"
+        }
+      }
     }
   },
   {
-    "id": "post-user",
+    "id": "get-germany",
+    "method": "GET",
+    "path": "/germany",
+    "response": {
+      "status": 200,
+      "headers": {
+        "Cache-Control": "no-store"
+      },
+      "body": {
+        "name": "Germany",
+        "official": "Federal Republic of Germany",
+        "nativeName": {
+          "deu": {
+            "official": "Bundesrepublik Deutschland",
+            "common": "Deutschland"
+          }
+        },
+        "capital": [
+          "Berlin"
+        ],
+        "population": 83491249,
+        "maps": {
+          "googleMaps": "https://goo.gl/maps/mD9FBMq1nvXUBrkv6",
+          "openStreetMaps": "https://www.openstreetmap.org/relation/51477"
+        }
+      }
+    }
+  },
+  {
+    "id": "post",
     "method": "POST",
-    "path": "/users",
+    "path": "/post",
     "response": {
       "status": 201,
-      "body": { "success": true }
+      "headers": {
+        "Cache-Control": "no-store"
+      },
+      "body": "Created"
+    }
+  },
+  {
+    "id": "put",
+    "method": "PUT",
+    "path": "/put",
+    "response": {
+      "status": 204,
+      "headers": {
+        "Cache-Control": "no-store"
+      },
+      "body": "No Content"
+    }
+  },
+  {
+    "id": "patch",
+    "method": "PATCH",
+    "path": "/patch",
+    "response": {
+      "status": 204,
+      "headers": {
+        "Cache-Control": "no-store"
+      },
+      "body": "No Content"
+    }
+  },
+  {
+    "id": "delete",
+    "method": "DELETE",
+    "path": "/delete",
+    "response": {
+      "status": 202,
+      "headers": {
+        "Cache-Control": "no-store"
+      },
+      "body": "Accepted"
     }
   }
 ]

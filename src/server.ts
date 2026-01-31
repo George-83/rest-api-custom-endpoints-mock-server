@@ -11,12 +11,9 @@ const server = app.listen(port, () => {
     console.log(`Server started on port ${port}.`);
 });
 
-app.use(express.json());
-
-app.all("*", (req, res) => {
-    const mock = mocks.find(m =>
-        m.method === req.method &&
-        m.path === req.path
+app.use((req, res) => {
+    const mock = mocks.find(
+        m => m.method === req.method && m.path === req.path
     );
 
     if (!mock) {
@@ -25,3 +22,4 @@ app.all("*", (req, res) => {
 
     res.status(mock.response.status).json(mock.response.body);
 });
+
