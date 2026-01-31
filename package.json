@@ -1,7 +1,7 @@
 {
   "name": "rest-api-custom-endpoints-mock-server",
   "version": "1.0.0",
-  "description": "Create your own mock-server with custom endpoints, for REST API testing with Postman",
+  "description": "Create your own mock-server with custom endpoints, for REST API testing.",
   "type": "commonjs",
   "scripts": {
     "nodemon": "nodemon src/server.ts"

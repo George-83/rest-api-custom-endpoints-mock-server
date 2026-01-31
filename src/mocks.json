@@ -133,5 +133,41 @@
       },
       "body": "Accepted"
     }
+  },
+  {
+    "id": "400",
+    "method": "GET",
+    "path": "/bad-request",
+    "response": {
+      "status": 400,
+      "headers": {
+        "Cache-Control": "no-store"
+      },
+      "body": {}
+    }
+  },
+  {
+    "id": "401",
+    "method": "GET",
+    "path": "/unauthorized",
+    "response": {
+      "status": 401,
+      "headers": {
+        "Cache-Control": "no-store"
+      },
+      "body": {}
+    }
+  },
+  {
+    "id": "403",
+    "method": "GET",
+    "path": "/forbidden",
+    "response": {
+      "status": 403,
+      "headers": {
+        "Cache-Control": "no-store"
+      },
+      "body": {}
+    }
   }
 ]
