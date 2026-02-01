@@ -169,5 +169,65 @@
       },
       "body": {}
     }
+  },
+  {
+    "id": "404",
+    "method": "GET",
+    "path": "/notfound",
+    "response": {
+      "status": 404,
+      "headers": {
+        "Cache-Control": "no-store"
+      },
+      "body": {}
+    }
+  },
+  {
+    "id": "405",
+    "method": "GET",
+    "path": "/methodnotallowed",
+    "response": {
+      "status": 405,
+      "headers": {
+        "Cache-Control": "no-store"
+      },
+      "body": {}
+    }
+  },
+  {
+    "id": "408",
+    "method": "GET",
+    "path": "/requesttimeout",
+    "response": {
+      "status": 408,
+      "headers": {
+        "Cache-Control": "no-store"
+      },
+      "body": {}
+    }
+  },
+  {
+    "id": "422",
+    "method": "GET",
+    "path": "/unprocessableentity",
+    "response": {
+      "status": 422,
+      "headers": {
+        "Cache-Control": "no-store"
+      },
+      "body": {}
+    }
+  },
+  {
+    "id": "500",
+    "method": "GET",
+    "path": "/internalservererror",
+    "response": {
+      "status": 500,
+      "headers": {
+        "Cache-Control": "no-store"
+      },
+      "body": {}
+    }
   }
 ]
