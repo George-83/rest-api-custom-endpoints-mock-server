@@ -95,7 +95,9 @@
       "headers": {
         "Cache-Control": "no-store"
       },
-      "body": "Created"
+      "body": {
+        "message": "Created"
+      }
     }
   },
   {
@@ -107,7 +109,7 @@
       "headers": {
         "Cache-Control": "no-store"
       },
-      "body": "No Content"
+      "body": {}
     }
   },
   {
@@ -119,7 +121,7 @@
       "headers": {
         "Cache-Control": "no-store"
       },
-      "body": "No Content"
+      "body": {}
     }
   },
   {
@@ -131,7 +133,9 @@
       "headers": {
         "Cache-Control": "no-store"
       },
-      "body": "Accepted"
+      "body": {
+        "message": "Accepted"
+      }
     }
   },
   {
@@ -143,7 +147,9 @@
       "headers": {
         "Cache-Control": "no-store"
       },
-      "body": {}
+      "body": {
+        "errorMessage": "BadRequest"
+      }
     }
   },
   {
@@ -155,7 +161,9 @@
       "headers": {
         "Cache-Control": "no-store"
       },
-      "body": {}
+      "body": {
+        "errorMessage": "Unauthorized"
+      }
     }
   },
   {
@@ -167,67 +175,79 @@
       "headers": {
         "Cache-Control": "no-store"
       },
-      "body": {}
+      "body": {
+        "errorMessage": "Forbidden"
+      }
     }
   },
   {
     "id": "404",
     "method": "GET",
-    "path": "/notfound",
+    "path": "/not-found",
     "response": {
       "status": 404,
       "headers": {
         "Cache-Control": "no-store"
       },
-      "body": {}
+      "body": {
+        "errorMessage": "NotFound"
+      }
     }
   },
   {
     "id": "405",
     "method": "GET",
-    "path": "/methodnotallowed",
+    "path": "/method-not-allowed",
     "response": {
       "status": 405,
       "headers": {
         "Cache-Control": "no-store"
       },
-      "body": {}
+      "body": {
+        "errorMessage": "MethodNotAllowed"
+      }
     }
   },
   {
     "id": "408",
     "method": "GET",
-    "path": "/requesttimeout",
+    "path": "/request-timeout",
     "response": {
       "status": 408,
       "headers": {
         "Cache-Control": "no-store"
       },
-      "body": {}
+      "body": {
+        "errorMessage": "RequestTimeout"
+      }
     }
   },
   {
     "id": "422",
     "method": "GET",
-    "path": "/unprocessableentity",
+    "path": "/unprocessable-entity",
     "response": {
       "status": 422,
       "headers": {
         "Cache-Control": "no-store"
       },
-      "body": {}
+      "body": {
+        "errorMessage": "UnprocessableEntity"
+      }
     }
   },
   {
     "id": "500",
     "method": "GET",
-    "path": "/internalservererror",
+    "path": "/internal-server-error",
     "response": {
       "status": 500,
       "headers": {
         "Cache-Control": "no-store"
       },
-      "body": {}
+      "body": {
+        "errorMessage": "InternalServerError"
+      }
     }
   }
 ]
