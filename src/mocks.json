@@ -249,5 +249,75 @@
         "errorMessage": "InternalServerError"
       }
     }
+  },
+  {
+    "id": "501",
+    "method": "GET",
+    "path": "/not-implemented",
+    "response": {
+      "status": 501,
+      "headers": {
+        "Cache-Control": "no-store"
+      },
+      "body": {
+        "errorMessage": "NotImplemented"
+      }
+    }
+  },
+  {
+    "id": "502",
+    "method": "GET",
+    "path": "/bad-gateway",
+    "response": {
+      "status": 502,
+      "headers": {
+        "Cache-Control": "no-store"
+      },
+      "body": {
+        "errorMessage": "BadGateway"
+      }
+    }
+  },
+  {
+    "id": "503",
+    "method": "GET",
+    "path": "/service-unavailable",
+    "response": {
+      "status": 503,
+      "headers": {
+        "Cache-Control": "no-store"
+      },
+      "body": {
+        "errorMessage": "ServiceUnavailable"
+      }
+    }
+  },
+  {
+    "id": "504",
+    "method": "GET",
+    "path": "/gateway-timeout",
+    "response": {
+      "status": 504,
+      "headers": {
+        "Cache-Control": "no-store"
+      },
+      "body": {
+        "errorMessage": "GatewayTimeout"
+      }
+    }
+  },
+  {
+    "id": "505",
+    "method": "GET",
+    "path": "/http-version-not-supported",
+    "response": {
+      "status": 505,
+      "headers": {
+        "Cache-Control": "no-store"
+      },
+      "body": {
+        "errorMessage": "HTTPVersionNotSupported"
+      }
+    }
   }
 ]
