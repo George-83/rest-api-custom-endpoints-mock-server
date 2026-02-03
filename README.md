@@ -76,27 +76,27 @@ project-root/
 
 ## Available Endpoints (Default)
 <pre>
-Method	Path	                        Description
-GET	/usa	                        United States info
-GET	/gb	                        United Kingdom info
-GET	/germany	                Germany info
-POST	/post	                        Returns 201 Created
-PUT	/put          	                Returns 204 No Content
-PATCH	/patch	                        Returns 204 No Content
-DELETE	/delete	                        Returns 202 Accepted
-GET	/bad-request	                400 Bad Request
-GET	/unauthorized	                401 Unauthorized
-GET	/forbidden	                403 Forbidden
-GET	/not-found	                404 Not Found
-GET	/method-not-allowed	        405 Method Not Allowed
-GET	/request-timeout	        408 Request Timeout
-GET	/unprocessable-entity	        422 Unprocessable Entity
-GET	/internal-server-error	        500 Internal Server Error
-GET	/not-implemented	        501 Not Implemented
-GET	/bad-gateway	                502 Bad Gateway
-GET	/service-unavailable	        503 Service Unavailable
-GET	/gateway-timeout	        504 Gateway Timeout
-GET	/http-version-not-supported	505 HTTP Version Not Supported
+Method	Path	                  Description
+GET	/usa	                      United States info
+GET	/gb	                          United Kingdom info
+GET	/germany	                  Germany info
+POST	/post	                  Returns 201 Created
+PUT	/put          	              Returns 204 No Content
+PATCH	/patch	                  Returns 204 No Content
+DELETE	/delete	                  Returns 202 Accepted
+GET	/bad-request	              400 Bad Request
+GET	/unauthorized	              401 Unauthorized
+GET	/forbidden	                  403 Forbidden
+GET	/not-found	                  404 Not Found
+GET	/method-not-allowed	          405 Method Not Allowed
+GET	/request-timeout	          408 Request Timeout
+GET	/unprocessable-entity	      422 Unprocessable Entity
+GET	/internal-server-error	      500 Internal Server Error
+GET	/not-implemented	          501 Not Implemented
+GET	/bad-gateway	              502 Bad Gateway
+GET	/service-unavailable	      503 Service Unavailable
+GET	/gateway-timeout	          504 Gateway Timeout
+GET	/http-version-not-supported	  505 HTTP Version Not Supported
 </pre>
 
 ---
