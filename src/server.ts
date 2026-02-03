@@ -17,7 +17,14 @@ app.use((req, res) => {
     );
 
     if (!mock) {
-        return res.status(404).json({ error: "Mock not found" });
+        return res.status(404).json({ error: "Mock not found. Please check request method or URL." });
+    }
+
+    // Apply headers from mock
+    if (mock.response.headers) {
+        Object.entries(mock.response.headers).forEach(([key, value]) => {
+            res.setHeader(key, value as string);
+        });
     }
 
     res.status(mock.response.status).json(mock.response.body);
