@@ -1,6 +1,6 @@
 # Node.js + Express + TypeScript mock server
 
-This is a project that demonstrates how to build a mock server with custom endpoints, that allows you to quickly set up REST API endpoints based on a JSON configuration.
+This project demonstrates how you can build your own mock server with custom endpoints, that allows you to quickly set up REST API endpoints based on a JSON configuration.
 
 This mock-server can be used for practicing API testing, both manually (Postman, curl, etc.) and automation.
 
