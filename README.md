@@ -6,7 +6,7 @@ This mock-server can be used for practicing API testing, both manually (Postman,
 
 ---
 
-## 🚀 Goals
+## Goals
 
 - Practice manual REST API testing
 - Practice automated API testing
@@ -18,7 +18,7 @@ This mock-server can be used for practicing API testing, both manually (Postman,
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 
 - **TypeScript**
 - **Node.js**
@@ -27,7 +27,7 @@ This mock-server can be used for practicing API testing, both manually (Postman,
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 <pre>
 project-root/
@@ -52,7 +52,7 @@ project-root/
 
 ---
 
-## ▶️ How to Run the Server
+## How to Run the Server
 1. Start the server:
 * ```npm run nodemon```
 2. Base URL:
@@ -62,7 +62,7 @@ project-root/
 
 ---
 
-## 🧩 Features
+## Features
 
 * The server runs on port 3000 by default
 * Cache is disabled via headers
@@ -74,7 +74,7 @@ project-root/
 
 ---
 
-## ✅ Available Endpoints (Default)
+## Available Endpoints (Default)
 <pre>
 Method	Path	                        Description
 GET	/usa	                        United States info
@@ -101,7 +101,7 @@ GET	/http-version-not-supported	505 HTTP Version Not Supported
 
 ---
 
-## 🔧 Customizing Endpoints
+## Customizing Endpoints
 Change the mocks.json file.
 
 * Change HTTP Method: "method": "POST" → "method": "PUT"
