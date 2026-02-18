@@ -115,16 +115,4 @@ This makes the server flexible for any testing scenario.
 ---
 
 ## License
-This project is for educational purposes and personal use.
-
-
-
-
-
-
-
-
-
-
-
-
+This project is released into the public domain under The Unlicense. You are free to use, copy, modify, and share this code.
